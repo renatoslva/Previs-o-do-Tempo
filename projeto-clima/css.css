@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1421930866250-aa0594cea05c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxNDY4NzI5MQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+.big-box{
+    background-color:rgba(0, 0, 0, 0.363) ;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.input-city{
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #747474f5;  
+    }
+.input-city::placeholder{
+    color: #fff;
+    
+}
+
+.button-search{
+    background-color: #7474749a;
+    padding: 10px;
+    border: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    cursor: pointer;
+    float: right;
+    
+    
+}
+.image-search{
+    width: 20px;
+    height: 20px;
+    
+}
+.medium-box{
+    margin-top: 30px;
+    background-color: #7474749a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.city{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    color: aliceblue;
+
+}
+.temperature{
+    font-size: 20px;
+    font-weight: 100;
+    text-align:left;
+    margin-top: 20px;
+}
+.smaller-box{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #1d1a1aee;
+    border-radius: 10px;
+    
+    }
+.prediction-text{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 10px;
+    color: aliceblue;
+
+}
+.moisture{
+    margin-top: 20px;
+
+}
